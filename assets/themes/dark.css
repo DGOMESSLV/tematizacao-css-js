@@ -1,0 +1,13 @@
+body.dark {
+	--body-bg: var(--blue-gray-90);
+	--body-fg: var(--white-90);
+
+	--header-bg: var(--blue-gray-100);
+	--header-fg: var(--white-80);
+	--header-brand-fg: var(--white-80);
+
+	--h1-fg: var(--white-80);
+	--btn-bg: var(--blue-gray-100);
+	--btn-fg: var(--white-80);
+	--btn-border-color: var(--blue-gray-100);
+}
