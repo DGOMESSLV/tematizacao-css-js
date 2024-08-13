@@ -10,10 +10,12 @@
 		<link rel="stylesheet" type="text/css" href="./assets/themes/light.css" />
 		<link rel="stylesheet" type="text/css" href="./assets/themes/dark.css" />
 		<link rel="stylesheet" type="text/css" href="./assets/css/app.css" />
-		<script type="text/javascript" src="./assets/js/theme-flicker-fix.js"></script>
+		<script type="text/javascript">
+			(function(){"use strict";var o=new MutationObserver(function(){if(document.body){var t=localStorage.getItem('app-theme') || 'light';document.body.classList.add(t)}});o.observe(document.documentElement,{childList: true})})()
+		</script>
 	</head>
 
-	<body class="dark">
+	<body>
 		<header>
 			<a class="navbar-brand" href="#">
 				Demo site
@@ -23,7 +25,7 @@
 		<div class="content">
 			<h1>Clique aqui para  a mágica</h1>
 			
-			<button type="button">
+			<button type="button" onclick="cycleTheme()">
 				Alterar tema
 			</button>
 		</div>

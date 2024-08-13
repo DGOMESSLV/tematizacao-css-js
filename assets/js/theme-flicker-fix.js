@@ -1,0 +1,1 @@
+(function(){"use strict";var o=new MutationObserver(function(){if(document.body){var t=localStorage.getItem('app-theme') || 'light';document.body.classList.add(t)}});o.observe(document.documentElement,{childList: true})})()
