@@ -1,0 +1,13 @@
+body.light {
+	--body-bg: var(--white-90);
+	--body-fg: var(--black-90);
+
+	--header-bg: var(--white-100);
+	--header-fg: var(--gray-100);
+	--header-brand-fg: var(--black-80);
+
+	--h1-fg: var(--black-80);
+	--btn-bg: var(--white-80);
+	--btn-fg: var(--black-80);
+	--btn-border-color: var(--gray-100);
+}

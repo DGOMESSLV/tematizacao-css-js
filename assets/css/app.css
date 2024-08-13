@@ -5,11 +5,9 @@
 html, body {
 	margin: 0;
 	padding: 0;
+	background: var(--body-bg);
 	font-family: Helvetica, Arial, system-ui, sans-serif;
 	font-size: 16px;
-}
-
-body {
 }
 
 header {
@@ -20,12 +18,14 @@ header {
 	padding: 16px 12px;
 	box-shadow: rgba(0, 0, 0, 0.075) 0px 2px 4px 0px;
 	border-bottom: 1px solid #e6e6e6;
+	background: var(--header-bg);
 }
 
 header .navbar-brand {
 	font-size: 18px;
 	font-weight: 500;
 	text-decoration: none;
+	color: var(--header-brand-fg);
 }
 
 .content {
@@ -40,14 +40,15 @@ header .navbar-brand {
 h1 {
 	margin-top: 0;
 	margin-bottom: 12px;
+	color: var(--h1-fg);
 }
 
 button {
 	padding: 8px 12px;
 	border-radius: 6px;
-	border: 1px solid #ccc;
-	background: #e6e6e6;
+	border: 1px solid var(--btn-border-color);
+	background: var(--btn-bg);
 	font-size: 16px;
 	font-weight: 500;
-	color: #696969;
+	color: var(--btn-fg);
 }
